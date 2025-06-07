@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c640fd2221bfd48b3c7343efc95b04, type: 3}
+  m_Name: HarryTheHoglin
+  m_EditorClassIdentifier: 
+  enemyName: HarryTheHoglin
+  stats:
+  - statDefinition: {fileID: 11400000, guid: d1744e6e0d7d0224792d5f36a75e4cb9, type: 2}
+    value: 15
+  - statDefinition: {fileID: 11400000, guid: 8999c5af5d6f08846849ea37f2d926a7, type: 2}
+    value: 16
+  - statDefinition: {fileID: 11400000, guid: 25b0c77f66e05e54991773a8f6984468, type: 2}
+    value: 200
+  moves:
+  - {fileID: 11400000, guid: 314d2bc3210fd4c46bdecd690ed0b503, type: 2}
+  types:
+  - {fileID: 11400000, guid: 7edf861267c25634bb651cba739e9394, type: 2}

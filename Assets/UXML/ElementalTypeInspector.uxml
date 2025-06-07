@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/StyleSheets/ElementalTypesEditorStyle.uss?fileID=7433441132597879392&amp;guid=68e34216dc85e894f9f995fead0ff7aa&amp;type=3#ElementalTypesEditorStyle" />
+    <ui:Label text="Add Type&#10;" name="AddTypeHeader" class="header" />
+    <ui:VisualElement name="AddTypeVE" style="flex-grow: 1; justify-content: flex-start;">
+        <ui:ScrollView name="ScrollView">
+            <ui:TextField label="Text Field" placeholder-text="filler text" />
+            <ui:Button text="Button" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+    <ui:Label text="TypeChart" name="TypeChart" class="header" />
+    <ui:VisualElement name="TypeChartVE" style="flex-grow: 1;">
+        <ui:GroupBox>
+            <ui:DropdownField label="Type" name="TypeDropdown" />
+            <ui:VisualElement name="Header" style="flex-grow: 1; font-size: 14px;">
+                <ui:Label text="When Attacking" class="header" style="font-size: 14px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="AttackAdv" style="flex-grow: 1;">
+                <ui:DropdownField label="Is strong to:&#10;" />
+                <ui:Button text="Add Attack Advantage" />
+            </ui:VisualElement>
+            <ui:VisualElement name="AttackDisAdv" style="flex-grow: 1;">
+                <ui:DropdownField label="Is weak to:&#10;" />
+                <ui:Button text="Add Attack Disadvantage" />
+            </ui:VisualElement>
+            <ui:Label text="When Defending" class="header" style="font-size: 14px;" />
+            <ui:VisualElement name="DefenseAdvantage" style="flex-grow: 1;">
+                <ui:DropdownField label="Is strong to:&#10;" />
+                <ui:Button text="Add Defense Advantage" />
+            </ui:VisualElement>
+            <ui:VisualElement name="DefenseDisadvantage" style="flex-grow: 1;">
+                <ui:DropdownField label="Is weak to:&#10;" />
+                <ui:Button text="Add Defense Disadvantage" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

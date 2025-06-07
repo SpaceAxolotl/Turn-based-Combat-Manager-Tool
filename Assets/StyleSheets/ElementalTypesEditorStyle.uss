@@ -1,0 +1,9 @@
+.header {
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+.maintext {
+    font-size: 12px;
+    -unity-font-style: normal;
+}

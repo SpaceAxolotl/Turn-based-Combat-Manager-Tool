@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff3d95f9c90ef34aa82a3970aaf333d, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  typeName: Wood
+  description: Wood you like to dance with me? Said the elk to the tree. The tree
+    stood still. It couldn't dance.
+  offensiveStrengths:
+  - {fileID: 11400000, guid: 5b77c772dd8bb7c44a52ad7500c04c7b, type: 2}
+  offensiveWeaknesses:
+  - {fileID: 11400000, guid: 7edf861267c25634bb651cba739e9394, type: 2}
+  defensiveStrengths:
+  - {fileID: 11400000, guid: 5b77c772dd8bb7c44a52ad7500c04c7b, type: 2}
+  defensiveWeaknesses:
+  - {fileID: 11400000, guid: 7edf861267c25634bb651cba739e9394, type: 2}

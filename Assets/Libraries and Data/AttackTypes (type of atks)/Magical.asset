@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3bd0cb3f07b8f44b89fb246d21219b, type: 3}
+  m_Name: Magical
+  m_EditorClassIdentifier: 
+  typeName: Magical
+  description: This uses the Magic Damage stat during damage calculation
+  scalingStat: {fileID: 11400000, guid: 98dd67cafdb6a154fb5de3c1ca8c0a0d, type: 2}

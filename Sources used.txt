@@ -1,0 +1,19 @@
+UI listview
+https://discussions.unity.com/t/how-to-use-list-view-in-ui-toolkit/1627264/3
+
+data binding
+https://docs.unity3d.com/6000.0/Documentation/Manual/UIE-data-binding.html
+
+ui builder main and flow
+https://docs.unity3d.com/6000.0/Documentation/Manual/UIE-simple-ui-toolkit-workflow.html
+https://docs.unity3d.com/6000.0/Documentation/Manual/UIElements.html
+
+multi column list view
+https://docs.unity3d.com/6000.0/Documentation/Manual/UIE-uxml-element-MultiColumnListView.html
+
+visualtree
+https://docs.unity3d.com/6000.1/Documentation/Manual/UIE-VisualTree.html
+
+custom inspector
+https://www.youtube.com/watch?v=eCIv4i_i9bE 
+https://www.youtube.com/watch?v=_jtj73lu2Ko
