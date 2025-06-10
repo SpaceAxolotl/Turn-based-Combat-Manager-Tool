@@ -16,6 +16,9 @@ MonoBehaviour:
   description: like fire, but colder
   offensiveStrengths:
   - {fileID: 11400000, guid: 7edf861267c25634bb651cba739e9394, type: 2}
-  offensiveWeaknesses: []
-  defensiveStrengths: []
-  defensiveWeaknesses: []
+  offensiveWeaknesses:
+  - {fileID: 11400000, guid: 4a761b999e4355f4b92cbae05a748e11, type: 2}
+  defensiveStrengths:
+  - {fileID: 11400000, guid: 7edf861267c25634bb651cba739e9394, type: 2}
+  defensiveWeaknesses:
+  - {fileID: 11400000, guid: 4a761b999e4355f4b92cbae05a748e11, type: 2}

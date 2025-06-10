@@ -17,17 +17,18 @@ MonoBehaviour:
     get real
   stats:
   - statDefinition: {fileID: 11400000, guid: 8999c5af5d6f08846849ea37f2d926a7, type: 2}
-    value: 0
+    value: 200
   - statDefinition: {fileID: 11400000, guid: d1744e6e0d7d0224792d5f36a75e4cb9, type: 2}
-    value: 0
+    value: 15
   - statDefinition: {fileID: 11400000, guid: 50b4417379f506e4fbb9a8bef7f24fd2, type: 2}
-    value: 0
+    value: 15
   - statDefinition: {fileID: 11400000, guid: 25b0c77f66e05e54991773a8f6984468, type: 2}
-    value: 0
+    value: 15
   - statDefinition: {fileID: 11400000, guid: 98dd67cafdb6a154fb5de3c1ca8c0a0d, type: 2}
-    value: 0
+    value: 15
   moves:
   - {fileID: 11400000, guid: 314d2bc3210fd4c46bdecd690ed0b503, type: 2}
+  - {fileID: 11400000, guid: 2c6e8009fd5577c49937f7dbeea75e4a, type: 2}
   types:
   - {fileID: 11400000, guid: 4a761b999e4355f4b92cbae05a748e11, type: 2}
   resources:
@@ -35,3 +36,4 @@ MonoBehaviour:
     value: 100
   - resourceDefinition: {fileID: 11400000, guid: 481ea01cfde5d6b468981c24eaae1ab5, type: 2}
     value: 100
+  sprite: {fileID: 0}

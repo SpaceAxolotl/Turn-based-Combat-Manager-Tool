@@ -16,3 +16,5 @@ MonoBehaviour:
   typeLibrary: {fileID: 11400000, guid: ce1c5347aa121764ba8129c0a1415eb8, type: 2}
   allies:
   - {fileID: 11400000, guid: fb0da49681d9f424bb9a4e4b09b4b121, type: 2}
+  - {fileID: 11400000, guid: 944459f26e22b1d40bb14433145ee087, type: 2}
+  - {fileID: 11400000, guid: 1e6d6fb745ca21f44aff686eddf11c92, type: 2}

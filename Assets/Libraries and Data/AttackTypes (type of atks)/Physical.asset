@@ -15,3 +15,4 @@ MonoBehaviour:
   typeName: Physical
   description: This uses the attack stat in damage scaling
   scalingStat: {fileID: 11400000, guid: d1744e6e0d7d0224792d5f36a75e4cb9, type: 2}
+  defensiveStat: {fileID: 11400000, guid: 291b67e9c28c7b449bccab93ac58f198, type: 2}

@@ -14,7 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allyName: Hippie the helper
   allyDescription: 
-  stats: []
-  moves: []
-  types: []
+  stats:
+  - statDefinition: {fileID: 11400000, guid: d1744e6e0d7d0224792d5f36a75e4cb9, type: 2}
+    value: 0
+  - statDefinition: {fileID: 11400000, guid: 8999c5af5d6f08846849ea37f2d926a7, type: 2}
+    value: 0
+  - statDefinition: {fileID: 11400000, guid: 25b0c77f66e05e54991773a8f6984468, type: 2}
+    value: 0
+  - statDefinition: {fileID: 11400000, guid: 50b4417379f506e4fbb9a8bef7f24fd2, type: 2}
+    value: 0
+  - statDefinition: {fileID: 11400000, guid: 98dd67cafdb6a154fb5de3c1ca8c0a0d, type: 2}
+    value: 0
+  - statDefinition: {fileID: 11400000, guid: 25b0c77f66e05e54991773a8f6984468, type: 2}
+    value: 0
+  moves:
+  - {fileID: 11400000, guid: 2c6e8009fd5577c49937f7dbeea75e4a, type: 2}
+  types:
+  - {fileID: 11400000, guid: 5b77c772dd8bb7c44a52ad7500c04c7b, type: 2}
   resources: []
+  sprite: {fileID: 0}

@@ -15,7 +15,10 @@ MonoBehaviour:
   typeName: Fire
   description: Like water, but hotter
   offensiveStrengths:
-  - {fileID: 0}
-  offensiveWeaknesses: []
-  defensiveStrengths: []
-  defensiveWeaknesses: []
+  - {fileID: 11400000, guid: 4a761b999e4355f4b92cbae05a748e11, type: 2}
+  offensiveWeaknesses:
+  - {fileID: 11400000, guid: f031473a60eaaee4abd78b8ce8300a0e, type: 2}
+  defensiveStrengths:
+  - {fileID: 11400000, guid: 4a761b999e4355f4b92cbae05a748e11, type: 2}
+  defensiveWeaknesses:
+  - {fileID: 11400000, guid: f031473a60eaaee4abd78b8ce8300a0e, type: 2}

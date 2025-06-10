@@ -8,5 +8,6 @@ public class AttackType : ScriptableObject
     public string description;
 
     public StatDefinition scalingStat;   // Used to calculate attack power
-    // Optional: public StatDefinition defensiveStat; // e.g. for resistance checks
+                                         // Optional: public StatDefinition defensiveStat; // e.g. for resistance checks
+    public StatDefinition defensiveStat; // e.g. for resistance checks
 }

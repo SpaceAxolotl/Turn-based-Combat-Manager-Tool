@@ -15,3 +15,4 @@ MonoBehaviour:
   typeName: Magical
   description: This uses the Magic Damage stat during damage calculation
   scalingStat: {fileID: 11400000, guid: 98dd67cafdb6a154fb5de3c1ca8c0a0d, type: 2}
+  defensiveStat: {fileID: 11400000, guid: a070c74e3f290ce45a448851e2993abf, type: 2}

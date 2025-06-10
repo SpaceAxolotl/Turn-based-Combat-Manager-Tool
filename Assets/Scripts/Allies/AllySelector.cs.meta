@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5700f8c3a79bd9d4face89dad662c4ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - allyLibrary: {instanceID: 0}
+  - allyCombatEntity: {instanceID: 0}
+  - selectedAlly: {fileID: 11400000, guid: 944459f26e22b1d40bb14433145ee087, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

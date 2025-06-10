@@ -12,6 +12,13 @@ public class EnemyData : ScriptableObject
     public List<TypeDefinition> types = new List<TypeDefinition>();
 
     public List<EnemyResource> resources = new List<EnemyResource>();
+    public Sprite sprite;
+
+    public int GetStatValue(string statName)
+    {
+        var stat = stats.Find(s => s.statDefinition.statName == statName);
+        return stat?.value ?? 0;
+    }
 }
 
 [System.Serializable]

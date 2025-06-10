@@ -12,6 +12,13 @@ public class AllyData : ScriptableObject
     public List<TypeDefinition> types = new List<TypeDefinition>();
 
     public List<AllyResource> resources = new List<AllyResource>();
+    public Sprite sprite;
+
+    public int GetStatValue(string statName)
+    {
+        var stat = stats.Find(s => s.statDefinition.statName == statName);
+        return stat?.value ?? 0;
+    }
 }
 
 [System.Serializable]
