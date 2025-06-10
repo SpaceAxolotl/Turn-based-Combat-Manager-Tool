@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: defdec710618b0148b9a483088e32a17, type: 3}
-  m_Name: HippieTheHelper
+  m_Script: {fileID: 11500000, guid: 6f5ff3344a8de3d48bd5ad464d90cca8, type: 3}
+  m_Name: AttackTypeLibrary
   m_EditorClassIdentifier: 
-  allyName: Hippie the helper
-  allyDescription: 
-  stats: []
-  moves: []
-  types: []
-  resources: []
+  attackTypes:
+  - {fileID: 11400000, guid: 1e99a07c851a7b64d857a555a8aee615, type: 2}
+  - {fileID: 11400000, guid: 4f86161cb08b65140bf1eae3866d9d0f, type: 2}

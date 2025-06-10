@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: defdec710618b0148b9a483088e32a17, type: 3}
   m_Name: HomerTheHuman
   m_EditorClassIdentifier: 
-  allyName: August
+  allyName: Homer the human
+  allyDescription: Homer likes being everyone's homie. His attacks Home in on his
+    enemies (har har)
   stats:
   - statDefinition: {fileID: 11400000, guid: d1744e6e0d7d0224792d5f36a75e4cb9, type: 2}
     value: 0
@@ -22,3 +24,4 @@ MonoBehaviour:
     value: 0
   moves: []
   types: []
+  resources: []
