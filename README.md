@@ -16,12 +16,24 @@ Attack types (which stat the move uses to attack). <br/>
 
 ## Installation
 
-if using Github, download the codebase like this:
-![Image of download code] (ImagesInReadme/DownloadOrClone.png)
+if using Github, download the codebase like this: <br/>
+ <img src="ImagesInReadme/downloadOrClone.png" alt="clone repo" width="200"> 
 
+## Project Setup
+*Where do I create a new move/statistic/resource/attacktype/ally or enemy?*
 
+Creating an individual element is done in its respective folder. <br/>
+<img src="ImagesInReadme/Libraries and data.png" alt="clone repo" width="500"> <br/>
+Then, add it to its respective library to make sure the rest of the system use it.
 
-##Usage
+Adding extra values or a check can be done in the script. Usually called ..data:
+<img src="ImagesInReadme/Libraries and data.png" alt="clone repo" width="500"> <br/>
+
+## Use Case Examples
+
+Making moves (as found in the Libraries and Data folder) <br/>
+<img src="ImagesInReadme/CreatingAMoveBarrelRoll.png" alt="clone repo" width="500"> 
+
 
 ## AI Usage
 This project uses AI in its code
