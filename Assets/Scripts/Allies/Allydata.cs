@@ -6,6 +6,8 @@ public class AllyData : ScriptableObject
 {
     public string allyName;
 
+    public int currentHealth;
+
     public string allyDescription;
     public List<AllyStat> stats = new List<AllyStat>();
     public List<MoveData> moves = new List<MoveData>();
@@ -19,6 +21,12 @@ public class AllyData : ScriptableObject
         var stat = stats.Find(s => s.statDefinition.statName == statName);
         return stat?.value ?? 0;
     }
+
+    public void InitializeCurrentHealthFromMax()
+{
+    currentHealth = stats.Find(s => s.statDefinition.statName == "maxHealth")?.value ?? 0;
+}
+
 }
 
 [System.Serializable]

@@ -22,6 +22,8 @@ public class BattleStarter : MonoBehaviour
             // Update UI to show the active characters
             if (battleUI != null)
             {
+                activeAlly.InitializeCurrentHealthFromMax();
+                activeEnemy.InitializeCurrentHealthFromMax();
                 battleUI.UpdateAllyUI();
                 battleUI.UpdateEnemyUI();
             }

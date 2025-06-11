@@ -86,10 +86,11 @@ public class CombatTurnManager : MonoBehaviour
         {
             int randomIndex = Random.Range(0, enemy.moves.Count);
             var selectedMove = enemy.moves[randomIndex];
-            
+
             // Execute the move
             ExecuteMove(selectedMove, false);
         }
+
 
         // End enemy turn and start ally turn
         EndEnemyTurn();
@@ -108,10 +109,10 @@ public class CombatTurnManager : MonoBehaviour
     {
         // Execute the move logic here
         Debug.Log($"Executing move: {move.moveName} by {(isAllyMove ? "Ally" : "Enemy")}");
-        
+
         // Process the move through the combat system
         CombatSystem.Instance.ProcessMove(move, isAllyMove);
-        
+
         // After move execution, switch turns
         if (isAllyMove)
         {
@@ -130,7 +131,15 @@ public class CombatTurnManager : MonoBehaviour
 
     private void EndEnemyTurn()
     {
-        StartAllyTurn();
+        if (CurrentAllies.Instance.ActiveAllyData.currentHealth <= 0)
+        {
+            Debug.Log("Ally defeated. Ending battle.");
+            EndBattle();
+        }
+        else
+        {
+            StartAllyTurn();
+        }
     }
 
     public void EndBattle()

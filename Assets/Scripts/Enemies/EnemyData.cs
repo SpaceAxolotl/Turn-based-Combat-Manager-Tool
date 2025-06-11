@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyData : ScriptableObject
 {
     public string enemyName;
+    public int currentHealth;
 
     public string enemyDescription;
     public List<EnemyStat> stats = new List<EnemyStat>();
@@ -19,6 +20,10 @@ public class EnemyData : ScriptableObject
         var stat = stats.Find(s => s.statDefinition.statName == statName);
         return stat?.value ?? 0;
     }
+    public void InitializeCurrentHealthFromMax()
+{
+    currentHealth = stats.Find(s => s.statDefinition.statName == "maxHealth")?.value ?? 0;
+}
 }
 
 [System.Serializable]

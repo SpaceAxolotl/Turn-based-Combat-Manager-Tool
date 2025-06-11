@@ -137,7 +137,7 @@ public class CombatSystem : MonoBehaviour
             Debug.LogError("Invalid attacker type!");
             return 0f;
         }
-        
+
         // Get defensive stat from defender
         float defensiveStat;
         if (defender is AllyData defenderAllyData)
@@ -249,9 +249,11 @@ public class CombatSystem : MonoBehaviour
                 if (healthStat != null)
                 {
                     healthStat.value = Mathf.Max(0, healthStat.value - damage);
-                    Debug.Log($"{allyData.allyName} took {damage} damage. Current Health: {healthStat.value}");
+                    allyData.currentHealth = healthStat.value; // Sync to currentHealth field
+                    Debug.Log($"{allyData.allyName} took {damage} damage. Current Health: {allyData.currentHealth}");
                 }
             }
+
         }
     }
-} 
+}

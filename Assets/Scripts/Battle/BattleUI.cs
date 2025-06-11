@@ -153,34 +153,31 @@ public class BattleUI : MonoBehaviour
     }
 
     public void UpdateAllyUI()
-    {
-        var ally = CurrentAllies.Instance.ActiveAllyData;
-        if (ally == null) return;
+{
+    var ally = CurrentAllies.Instance.ActiveAllyData;
+    if (ally == null) return;
 
-        // Update name
-        if (allyNameText != null)
-            allyNameText.text = ally.allyName;
+    // Update name
+    if (allyNameText != null)
+        allyNameText.text = ally.allyName;
 
-        // Update health
-        if (allyHealthText != null)
-        {
-            int currentHealth = (int)CurrentAllies.Instance.GetActiveAllyStat("Health");
-            int maxHealth = (int)CurrentAllies.Instance.GetActiveAllyStat("Max Health");
-            allyHealthText.text = $"HP: {currentHealth}/{maxHealth}";
-        }
+    // Ensure maxHealth stat name matches what's in AllyData (likely "maxHealth")
+    int maxHealth = ally.GetStatValue("maxHealth");
+    int currentHealth = ally.currentHealth;
 
-        // Update health slider
-        if (allyHealthSlider != null)
-        {
-            int currentHealth = (int)CurrentAllies.Instance.GetActiveAllyStat("Health");
-            int maxHealth = (int)CurrentAllies.Instance.GetActiveAllyStat("Max Health");
-            allyHealthSlider.value = (float)currentHealth / maxHealth;
-        }
+    // Update health text
+    if (allyHealthText != null)
+        allyHealthText.text = $"HP: {currentHealth}/{maxHealth}";
 
-        // Update type
-        if (allyTypeText != null)
-            allyTypeText.text = string.Join(", ", ally.types.ConvertAll(t => t.typeName));
-    }
+    // Update health slider
+    if (allyHealthSlider != null && maxHealth > 0)
+        allyHealthSlider.value = (float)currentHealth / maxHealth;
+
+    // Update type
+    if (allyTypeText != null)
+        allyTypeText.text = string.Join(", ", ally.types.ConvertAll(t => t.typeName));
+}
+
 
     public void UpdateEnemyUI()
     {
