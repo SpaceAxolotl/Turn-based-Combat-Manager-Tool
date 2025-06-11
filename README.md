@@ -15,8 +15,15 @@ Attack types (which stat the move uses to attack).
 
 ## Installation
 
-## Usage
+if using Github Desktop, download
+
+
+##Usage
+
+## AI Usage
+This project uses AI in its code
 
 ## Contributing
 
 ## License
+CC0 -[Creative Commmons](https://creativecommons.org/public-domain/cc0/)
