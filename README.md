@@ -1,9 +1,9 @@
 ## **1v1 Pokémon-esque Turn-based Combat Manager Tool**
 
 ## Introduction
-This is a tool that helps with setting up a pokémon-esque 1v1 turn-based combat system.
-It is made using Unity version 6000.0.39f1
-It uses Scriptable Objects and Classes as its basis to work.
+This is a tool that helps with setting up a pokémon-esque 1v1 turn-based combat system. <br/>
+It is made using Unity version 6000.0.39f1 <br/>
+It uses Scriptable Objects and Classes as its basis to work. <br/>
 
 It makes it easy to set up the following:<br/>
 -Allies and enemies, each with their own types, stats and movesets. <br/>
